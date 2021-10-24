@@ -30,6 +30,8 @@ const init = function(){
     
     document.getElementById('current--0').textContent = currentScore;
     document.getElementById('current--1').textContent = currentScore;
+    document.getElementById('name--0').textContent = 'Player 1';
+    document.getElementById('name--1').textContent = 'Player 2';
 
     player0El.classList.remove('player--winner');
     player1El.classList.remove('player--winner');
