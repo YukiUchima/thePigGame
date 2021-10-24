@@ -78,7 +78,7 @@ const holdDice = function(){
     document.getElementById(`score--${activePlayer}`).textContent = score[activePlayer];
 
     //Check if player wins round...
-    if(score[activePlayer]>=50){
+    if(score[activePlayer]>=100){
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
         document.getElementById(`name--${activePlayer}`).textContent = `WINNER!`
         gameOver = true;
